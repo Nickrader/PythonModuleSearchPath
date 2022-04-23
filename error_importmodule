@@ -2,11 +2,13 @@ https://docs.python.org/3/tutorial/modules.html#the-module-search-path
 https://stackoverflow.com/questions/6393861/how-python-deals-with-module-and-package-having-the-same-nam
 ---------------------------------------------------------------------------
 
-Python will check your working directory for module imports first.  If you work from an IDE or text editor, be mindful that hard to diagnose errors can arise from having the same name as a module (and many mondules can, at times, be imported)
+Python will check your working directory for module imports first.  If you work from an IDE or text editor, be mindful that hard to diagnose errors can 
+arise from having the same name as a module (and many mondules can, at times, be imported)
 
 What can I say, I used some very original names going through the tutorials, like: numpy.py, matplotlib.py and keras.py for my working file. ;)
 
-In the error message, check if one of the 'strings' is the same as the name of a '.py' file in your working directory.  It's not a bug, it's a feature. Try changing the name (e.g. add '1234' to the end before .py)
+In the error message, check if one of the 'strings' is the same as the name of a '.py' file in your working directory.  It's not a bug, it's a feature. 
+Try changing the name (e.g. add '1234' to the end before .py)
 
 Possible Related Errors: ModuleNotFoundError, ImportError, AttributeError
 ----------------------------------------------------------------------------
