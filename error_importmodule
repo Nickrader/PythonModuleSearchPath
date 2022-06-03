@@ -51,7 +51,7 @@ __pycache__  tensorflow.py
 username@usernameubuntu:~/import_paths$ rm -rf __pycache__/ tensorflow.py
 username@usernameubuntu:~/import_paths$ touch inspect.py
 username@usernameubuntu:~/import_paths$ ls
-impinspect.py
+inspect.py
 username@usernameubuntu:~/import_paths$ python3
 Python 3.9.7 (default, Sep 10 2021, 14:59:43) 
 [GCC 11.2.0] on linux
